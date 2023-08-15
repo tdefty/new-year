@@ -1,0 +1,170 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: auto;
+}
+/* header section start */
+header{
+    background-image: url(images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    text-align: right;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.header-heading{
+    font-size: 60px;
+    font-weight: 800;
+    width: 550px;
+    margin-left: 550px;
+}
+.header-paragraph{ 
+    margin-left: 650px;
+    width: 450px;
+    font-size: 18px;
+    color: rgba(68, 67, 67, 1);
+    line-height: 26px;
+}
+.simple-btn{
+    padding: 15px 10px;
+    background-color: #F15B22;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    margin-right: 100px;
+    font-size: 18px;
+}
+.failure{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+    width: 1000px;
+    margin: 50 auto;
+}
+.failure-image{
+    width: 500px;
+    padding-left: 80px;
+}
+.failure-text{
+    width: 350px;
+}
+.failure-heading{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.failure-paragraph{
+    line-height: 25px;
+}
+.fa-solid fa-check{
+    color: green;
+}
+/* header section end */
+/* plan-section start */
+.plan{
+    width: 1000px;
+    margin: 0 auto;
+}
+.plan-card{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.plan-card-paragraph{
+    color: #737272;
+    font-size: 18px;
+}
+.plan-card-heading{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0;
+    margin: auto;
+}
+.plan-heading{
+    padding: 50px 0;
+    font-size: 30px;
+    color: rgb(20, 20, 20);
+    font-weight: 800;
+    text-align: center;
+}
+.mind{
+    margin-top: 100px;
+}
+.mindset{
+    background: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 40px;
+    width: 800px;
+    margin: 0 auto;
+}
+.mindset-heading{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.mindset-btn{
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border-color: white;
+    color: #F15B22;
+    margin-bottom: 60px;
+}
+/* plan-section end */
+/* footer start */
+footer
+.footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+.footer-part-1{
+    width: 500px;
+    margin-left: 20px;
+}
+.footer-part-2{
+    background-color: black;
+    color: white;
+    margin-right: 40px;
+}
+.footer-heading{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-discription{
+    color: #737272;
+    font-size: 16px;
+    font-size: 400;
+    line-height: 20px;
+}
+.footer-social-icon{
+    display: flex;
+}
+.social-icon{
+    width: 30px;
+    margin-right: 10px;
+}
+.footer-sub{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.footer-form{
+    padding: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    background-color: black;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+}
+/* footer end */
